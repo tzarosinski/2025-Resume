@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tom Zarosinski - Resume</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-light: #dbeafe;
+      --dark: #1e293b;
+      --light: #f8fafc;
+      --medium: #64748b;
+      --border: #e2e8f0;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+    
+    body {
+      background-color: #f1f5f9;
+      color: var(--dark);
+      line-height: 1.5;
+      padding: 2rem;
+    }
+    
+    .resume-container {
+      max-width: 850px;
+      margin: 0 auto;
+      background-color: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    
+    .header {
+      background-color: var(--primary);
+      color: white;
+      padding: 2rem;
+    }
+    
+    .name {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    
+    .contact {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      font-size: 0.9rem;
+    }
+    
+    .contact span {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 1rem;
+      padding: 1.5rem;
+    }
+    
+    .left-column {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    
+    .right-column {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    
+    .section {
+      background-color: white;
+      border-radius: 8px;
+      padding: 1.5rem;
+      border: 1px solid var(--border);
+    }
+    
+    .section-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--primary-light);
+    }
+    
+    .summary {
+      font-size: 0.95rem;
+      color: var(--dark);
+    }
+    
+    .job {
+      margin-bottom: 1.5rem;
+    }
+    
+    .job:last-child {
+      margin-bottom: 0;
+    }
+    
+    .job-title {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: var(--dark);
+    }
+    
+    .company {
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 0.3rem;
+    }
+    
+    .period {
+      font-size: 0.85rem;
+      color: var(--medium);
+      margin-bottom: 0.8rem;
+    }
+    
+    ul {
+      list-style-type: none;
+    }
+    
+    li {
+      position: relative;
+      padding-left: 1.3rem;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+    
+    li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--primary);
+      font-weight: bold;
+    }
+    
+    .achievement {
+      background-color: var(--primary-light);
+      border-radius: 6px;
+      padding: 0.8rem;
+      margin-top: 0.8rem;
+      border-left: 3px solid var(--primary);
+    }
+    
+    .achievement-title {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+    
+    .skill-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.8rem;
+    }
+    
+    .skill-name {
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    
+    .competencies {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    
+    .competency {
+      background-color: var(--primary-light);
+      color: var(--primary);
+      font-size: 0.8rem;
+      font-weight: 500;
+      padding: 0.3rem 0.7rem;
+      border-radius: 4px;
+    }
+    
+    .education-item {
+      margin-bottom: 1rem;
+    }
+    
+    .degree {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    
+    .school {
+      font-size: 0.9rem;
+    }
+    
+    .edu-year {
+      font-size: 0.85rem;
+      color: var(--medium);
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <div class="header">
+      <div class="name">TOM ZAROSINSKI</div>
+      <div class="contact">
+        <span>Mineola, TX</span>
+        <span>503.853.5319</span>
+        <span>tzarosinski@gmail.com</span>
+      </div>
+    </div>
+    
+    <div class="grid-container">
+      <div class="left-column">
+        <div class="section">
+          <div class="section-title">PROFESSIONAL SUMMARY</div>
+          <div class="summary">
+            Highly accomplished EdTech Account Executive with 3+ years of experience selling AI-enhanced learning solutions to educational institutions. Uniquely positioned with both classroom teaching experience and proven sales success in the educational technology sector. Passionate about helping academic institutions leverage cutting-edge AI technology and equip their students to do the same.
+          </div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">EDUCATION</div>
+          <div class="education-item">
+            <div class="degree">Master of Arts in Teaching</div>
+            <div class="school">George Fox University</div>
+            <div class="edu-year">Newberg, OR | 2016</div>
+          </div>
+          <div class="education-item">
+            <div class="degree">Bachelor of Science in Kinesiology</div>
+            <div class="school">George Fox University</div>
+            <div class="edu-year">Newberg, OR | 2015</div>
+          </div>
+          <div class="education-item">
+            <div class="degree">Minor in Graphic Design</div>
+            <div class="school">George Fox University</div>
+            <div class="edu-year">Newberg, OR | 2015</div>
+          </div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">TECHNICAL SKILLS</div>
+          <div class="skill-item">
+            <span class="skill-name">Sales Tools</span>
+            <span class="skill-detail">Salesforce, Outreach.io</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Educational Technology</span>
+            <span class="skill-detail">AI Learning Platforms</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Product Knowledge</span>
+            <span class="skill-detail">AI Curriculum</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Presentation Skills</span>
+            <span class="skill-detail">Webinars, Demos</span>
+          </div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">CORE COMPETENCIES</div>
+          <div class="competencies">
+            <span class="competency">Educational Sales</span>
+            <span class="competency">Stakeholder Navigation</span>
+            <span class="competency">Grant Funding</span>
+            <span class="competency">AI Use Cases</span>
+            <span class="competency">Educational Procurement</span>
+            <span class="competency">Solution Selling</span>
+            <span class="competency">Implementation</span>
+          </div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">HOBBIES & INTERESTS</div>
+          <div class="summary">
+            Making pizza, playing and pondering board games, and spinning up stories with my kids — and ideally, all at the same time.
+          </div>
+        </div>
+      </div>
+      
+      <div class="right-column">
+        <div class="section">
+          <div class="section-title">PROFESSIONAL EXPERIENCE</div>
+          
+          <div class="job">
+            <div class="job-title">ACCOUNT EXECUTIVE</div>
+            <div class="company">CodeCombat</div>
+            <div class="period">2023 - PRESENT</div>
+            <p>Lead enterprise sales efforts for innovative AI-enhanced educational programming platforms across multiple territories, with a focus on district-wide implementations.</p>
+            <ul>
+              <li>Exceeded H2 2024 quota by 1.83% after developing strategic approaches for working with educational institutions and business partners</li>
+              <li>Secured and expanded a major grant-funded deal with Sojourner Truth, evolving it from basic licensing to a comprehensive implementation including AI workshops</li>
+              <li>Built and managed strategic relationships with key educational stakeholders including Hawaii DOE, BOCES in NY, and other district-level decision makers</li>
+              <li>Developed expertise in navigating educational procurement processes, grant funding opportunities, and state-specific educational initiatives</li>
+              <li>Led webinars showcasing advanced AI features within the Hackstack platform</li>
+            </ul>
+            
+            <div class="achievement">
+              <div class="achievement-title">Key Revenue Achievements:</div>
+              <ul>
+                <li>Achieved 226% of quota in Q1 2025 by developing and selling CodeCombat's first comprehensive AI professional development series to educational institutions</li>
+                <li>Demonstrated consistent growth by exceeding targets with 101.83% achievement in H2 2024 after implementing refined district-level approach</li>
+                <li>Delivered 102.5% of quota in Q3 2023 during first full quarter as Account Executive</li>
+                <li>Successfully transformed sales approach over time, resulting in steady performance improvement and culminating in record-breaking Q1 2025 results</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="job">
+            <div class="job-title">SALES DEVELOPMENT REPRESENTATIVE</div>
+            <div class="company">CodeCombat</div>
+            <div class="period">2022 - 2023</div>
+            <p>Developed targeted strategic outreach for CodeCombat's educational programming platforms, focusing on qualification and opportunity development.</p>
+            <ul>
+              <li>Consistently exceeded monthly SQL quotas, achieving 103.8% of target in H1 2023</li>
+              <li>Qualified the largest deal in sales team history ($102K at Wasco Union Elementary School District)</li>
+              <li>Closed over $25K in international deals during first half-year, demonstrating ability to navigate diverse educational systems</li>
+              <li>Created and executed custom outbound campaigns for large districts, libraries, and after-school programs</li>
+            </ul>
+            
+            <div class="achievement">
+              <div class="achievement-title">Key Achievements:</div>
+              <ul>
+                <li>Promoted from SDR to AE role within 18 months due to exceptional performance</li>
+                <li>Won multiple multi-year educational contracts</li>
+                <li>Qualified Leads maintained a 32% close/win rate, demonstrating effective discovery and qualification skills</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="job">
+            <div class="job-title">SCIENCE TEACHER & CODING INSTRUCTOR</div>
+            <div class="company">Woodburn School District</div>
+            <div class="period">Woodburn, OR | 2016 - 2022</div>
+            <p>Led science education and initiated coding and 3D design programs, providing firsthand experience with educational technology implementation.</p>
+            <ul>
+              <li>Implemented various game-based learning initiatives across curriculum</li>
+              <li>Created and led the 3D printing and design program</li>
+              <li>Developed deep understanding of educational technology integration and educator pain points</li>
+              <li>Built strong relationships with district technology coordinators and administrators</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
